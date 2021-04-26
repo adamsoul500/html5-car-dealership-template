@@ -1,21 +1,22 @@
-<!DOCTYPLE html>
+<!DOCTYPE html>
 <html>
 <head>
   <title>Car Dealership | Used Cars</title>
+  <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 <body>
 
   <!-- This is the contatiner that will hold the header of the website -->
   <!-- It would not matter if we used
     <div class="header"></div> << the old way of doing this
-    The reason we are using header is just for it to server
-    as a moder HTML5 box. 
+    The reason we are using header is just for it to serve
+    as a modern HTML5 box. 
   -->
 <header>
-  <!-- We are using a class called conatiner to keep things 
+  <!-- We are using a class called container to keep things 
     from being full width, this will be reused later -->
   <div class="container">
-    <nav> <!-- Same thins as <div class="nav"> </div> We are jsut using HTML5 Componenets -->
+    <nav> <!-- Same thins as <div class="nav"></div> We are just using HTML5 Componenets -->
       <div class="logo">
         <h1>Car Dealer</h1>
       </div>
@@ -29,11 +30,54 @@
     <div class="search-container">
       <h1>What can we help you with?</h1>
       <input type="text" class="search-bar"/>
-      <button type="submit" class="search-button">Search</button>
+      <button type="button" class="search-button">Search</button>
     </div>
     
   </div>
 </header>
+<section class="featured-inventory">
+  <div class="container">
+    <h1>Featured Inventory</h1>
+    <div class="inventory-container">
+      <div class="inventory-item">
+        <img src="images/car1.jpg" class="inventory-image"/>
+        <div class="inventory-description">
+          <h3>2020 Car</h3>
+          <span class="inventory-condition">Used</span>
+          <span class="inventory-miles">65,493</span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque eget felis etiam lorem eleifend et augue lacus.  Nisl morbi pellentesque a proin interdum vitae mattis massa integer. Nisl morbi pellentesque a proin interdum vitae mattis massa integer.
+          </p>
+          <button type="button" class="inventory-button">View</button>
+        </div>
+      </div>
+      <div class="inventory-item">
+        <img src="images/car2.jpg" class="inventory-image"/>
+        <div class="inventory-description">
+          <h3>2020 Car</h3>
+          <span class="inventory-condition">Used</span>
+          <span class="inventory-miles">65,493</span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque eget felis etiam lorem eleifend et augue lacus.  Nisl morbi pellentesque a proin interdum vitae mattis massa integer. Nisl morbi pellentesque a proin interdum vitae mattis massa integer.
+          </p>
+          <button type="button" class="inventory-button">View</button>
+        </div>
+      </div>
+      <div class="inventory-item">
+        <img src="images/car3.jpg" class="inventory-image"/>
+        <div class="inventory-description">
+          <h3>2020 Car</h3>
+          <span class="inventory-condition">Used</span>
+          <span class="inventory-miles">65,493</span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque eget felis etiam lorem eleifend et augue lacus.  Nisl morbi pellentesque a proin interdum vitae mattis massa integer. Nisl morbi pellentesque a proin interdum vitae mattis massa integer.
+          </p>
+          <button type="button" class="inventory-button">View</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 </body>
 </html>
